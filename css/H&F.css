@@ -1,0 +1,56 @@
+@import url("variable.css");
+
+/* шапка */
+
+.container {
+    background: var(--header);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    gap: 10px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.logo h1 {
+    color: var(--headertxt);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.links a {
+    color: var(--headertxt);
+    text-decoration: none;
+}
+
+.authbtn {
+    background: var(--authbtn);
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+
+/* подвал */
+
+footer {
+    background: var(--footer);
+    color: var(--footertxt);
+    text-align: center;
+    margin-top: 32px;
+    padding: 16px 0;
+}
