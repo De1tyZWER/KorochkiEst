@@ -27,16 +27,31 @@
 
     <main>
         <section class="sliderall">
-            <div class="slider">
-                <img src="assets/image/background/image06.jpg" alt="">
-                <img src="assets/image/background/image07.jpg" alt="">
-                <img src="assets/image/background/image10.webp" alt="">
-                <img src="assets/image/background/image11.jpg" alt="">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="assets/image/background/image06.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/image/background/image07.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/image/background/image10.webp" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/image/background/image11.jpg" alt="">
+                    </div>
+                </div>
+                <button class="slider-btn prev"><b>-</b></button>
+                <button class="slider-btn next"><b>+</b></button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
             </div>
-            <button>-</button>
-            <button>+</button>
         </section>
-
         <section class="content">
             <h2>Добро пожаловать на портал "Корочки.есть"</h2>
             <p>Здесь вы можете записаться на курсы дополнительного профессионального образования.</p>
@@ -51,10 +66,11 @@
             <p>Дистанционный формат, оффициальные документы, поддержка на всех этапах обучения</p>
         </section>
     </main>
-
     <footer>
         <p>&copy; 2025 Портал "Корочки.есть". Все права защищены</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
